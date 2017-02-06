@@ -111,7 +111,7 @@ environemnt variables.
 ```
 dokku config:set --no-restart sentry SENTRY_SERVER_EMAIL='root@localhost'
 dokku config:set --no-restart sentry SENTRY_EMAIL_HOST='smtp.example.com'
-dokku config:set --no-restart sentry SENTRY_EMAIL_PORT=465
+dokku config:set --no-restart sentry SENTRY_EMAIL_PORT=587
 dokku config:set --no-restart sentry SENTRY_EMAIL_USER=sentry@acme.com
 dokku config:set --no-restart sentry SENTRY_EMAIL_PASSWORD="somepassword"
 dokku config:set --no-restart sentry SENTRY_EMAIL_USE_TLS=true
